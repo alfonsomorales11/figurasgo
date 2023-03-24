@@ -12,3 +12,7 @@ func (cuadrado *Cuadrado) calculaPerimetro() float32 {
 func (cuadrado *Cuadrado) calculaArea() float32 {
 	return cuadrado.Ancho * cuadrado.Largo
 }
+
+func HolaMundo() {
+	fmt.Println("Hola desde modulo Github")
+}
