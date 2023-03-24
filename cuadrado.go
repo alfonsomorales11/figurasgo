@@ -13,6 +13,6 @@ func (cuadrado *Cuadrado) calculaArea() float32 {
 	return cuadrado.Ancho * cuadrado.Largo
 }
 
-func HolaMundo() {
-	fmt.Println("Hola desde modulo Github")
+func HolaMundo() string {
+	return "Hola desde modulo de github xD"
 }
